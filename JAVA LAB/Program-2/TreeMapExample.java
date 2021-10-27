@@ -14,9 +14,9 @@ public class TreeMapExample
 
     public void getValue()
     {
-        for (Map.Entry<String, String> word : tm.entrySet())
+        for (Map.Entry<String, String> val : tm.entrySet())
         {
-            System.out.println(word.getKey() + " :" + word.getValue());
+            System.out.println(val.getKey() + " :" + val.getValue());
 
         }
     }
