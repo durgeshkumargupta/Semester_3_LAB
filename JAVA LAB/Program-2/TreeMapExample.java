@@ -23,9 +23,9 @@ public class TreeMapExample
     public void searchValue(String key)
     {
         if (tm.containsKey(key)) {
-            System.out.println("The Value is present");
+            System.out.println("The key is present");
         } else {
-            System.out.println("The Value is not present");
+            System.out.println("The key is not present");
         }
 
     }
