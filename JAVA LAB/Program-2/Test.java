@@ -14,7 +14,7 @@ public class Test
             System.out.println("1.Adding Element");
             System.out.println("2.Searching Value");
             System.out.println("3.Display");
-            System.out.println("4.Sort Value of TreeMap ");
+            System.out.println("4.Sort Value of HashMap ");
             System.out.println("Enter your choice:");
             int ch = sc.nextInt();
             switch (ch)
