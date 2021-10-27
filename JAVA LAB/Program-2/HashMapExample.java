@@ -18,16 +18,11 @@ public class HashMapExample {
         }
     }
     public void sortValue() {
-        for (Map.Entry<String, String> entry : hm.entrySet())
-            System.out.println( entry.getKey() +": " + entry.getValue());
-    }
-
-    public static void sortbykey()
-    {
-
         TreeMap<String, Integer> sorted = new TreeMap<>();
 
         sorted.forEach((k,v)->{
-        System.out.println(k+" "+v); });
+        System.out.println(k+" "+v); }
+         );
     }
+
 }
