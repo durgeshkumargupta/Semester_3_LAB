@@ -18,7 +18,7 @@ public class HashMapExample {
         }
     }
     public void sortValue() {
-        TreeMap<String, Integer> sorted = new TreeMap<>();
+        TreeMap<String, String> sorted = new TreeMap<>();
 
         sorted.forEach((k,v)->{
         System.out.println(k+" "+v); }
