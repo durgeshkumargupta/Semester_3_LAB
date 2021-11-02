@@ -65,7 +65,4 @@ public class Student
 	public String toString() {
 		return "Student [usn=" + usn + ", name=" + name + ", address=" + address + ", dept=" + dept + "]";
 	}
-	
-	
-
 }
