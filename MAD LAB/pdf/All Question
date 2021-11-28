@@ -1,0 +1,31 @@
+Program-1:-
+Create an app to navigate from one activity to another using an intent object and passing data.
+
+Program-2:-
+Devise a Mobile app to showcase graphics on button states and ad a widget at run time.
+
+Program-3:-
+Demostrate adding and removing fragment at run time.
+
+Program-4:-
+Develop an app to dislay a Progress Bar and show a message with Alert Dialog.
+
+Program-5:-
+Implement an application that will create a database with a table of user credentials and create a login
+portal system.
+
+Program-6:-
+Develop an application to send SMS to a particular contact from the Phonebook.
+
+Program-7:-
+Create a login page to authenticate a user using PWA with Manifest file.
+
+Program-8:-
+Build a simple web page using PWA by adding a Service Worker.
+
+Program-9:-
+Devise a PWA to fetch the Github Details for a particular person using the Fetch API.
+
+Program-10:-
+Build an application to do a stock display using PWA using a raw JSON file.
+
