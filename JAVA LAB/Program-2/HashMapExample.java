@@ -6,11 +6,11 @@ public class HashMapExample {
 
     Map<String, String> hm = new HashMap<>();
 
-    void setValue(String state, String capital) {
+    public void setValue(String state, String capital) {
         hm.put(state, capital);
     }
 
-    void getValue()
+    public void getValue()
     {
         for (Map.Entry<String, String> word : hm.entrySet()) {
             System.out.println(word.getKey() + ":" + word.getValue());
