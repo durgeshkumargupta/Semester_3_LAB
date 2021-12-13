@@ -8,12 +8,14 @@ public class Config
 {
 	
 	@Bean
+	@Scope("prototype")
 	public Student setBeanStudent()
 	{
 		return new Student();
 	}
 	
 	@Bean
+	@Scope("singleton")
 	public Marks setBeanMarks()
 	{
 		return new Marks();
