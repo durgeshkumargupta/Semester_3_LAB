@@ -19,6 +19,16 @@ public class TestClass {
 		s.setMarks(marks);
 		
 		System.out.println(s);
+		
+		System.out.println("______________scope of Student______________");
+		Student s2=ctx.getBean(Student.class);
+		System.out.println(s.hashCode());
+		System.out.println(s2.hashCode());
+		
+		System.out.println("______________scope of Marks______________");
+		Marks mark2=(Marks)ctx.getBean(Marks.class);
+		System.out.println(marks.hashCode());
+		System.out.println(mark2.hashCode());
 
 	}
 
