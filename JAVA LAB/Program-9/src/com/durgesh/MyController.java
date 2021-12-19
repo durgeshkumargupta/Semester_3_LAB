@@ -13,7 +13,7 @@ public class MyController {
 	@GetMapping("/")
 	public String view()
 	{
-		return "page2";
+		return "index";
 	}
 	
 	@RequestMapping("/page2")
