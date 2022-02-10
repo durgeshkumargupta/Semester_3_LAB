@@ -36,7 +36,7 @@ public class Test
 		
 		
 //		System.out.println("__________________Delete Data__________________");
-//		Student s2=session.load(Student.class, 0);
+//		Student s2=session.load(Student.class, 5);
 //		
 //		session.delete(s2);
 //		
